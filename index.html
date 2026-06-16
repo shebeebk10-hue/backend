@@ -226,14 +226,17 @@ padding:30px;
 }
 
 .video-box{
-overflow:hidden;
-border-radius:30px;
-background:black;
+    overflow:hidden;
+    border-radius:30px;
+    background:black;
+    aspect-ratio:16/9;
 }
 
-video{
-width:100%;
-display:block;
+.video-box video{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
 }
 
 /* =========================
@@ -461,12 +464,11 @@ Explore Projects
 <div class="container">
 
 <h2 class="section-title serif">
-Featured Project
+Featured Projects
 </h2>
 
 <p class="section-sub">
-A private client project developed using Django and Python.
-</p>
+A collection of client and personal projects developed using Django, Python, and modern web technologies.</p>
 
 <div class="project-card">
 
@@ -500,7 +502,7 @@ CHANGE YOUR VIDEO PATH HERE
 <video controls autoplay muted loop playsinline>
 
 <source
-src="Videos\Screen Recordings\Screen Recording 2026-05-19 140815.mp4"
+src="Videos/Screen Recording 2026-05-19 140815.mp4"
 type="video/mp4">
 
 </video>
@@ -560,6 +562,7 @@ Key Features
 </div>
 
 </div>
+
 
 <div class="stack">
 
@@ -638,11 +641,168 @@ while respecting client privacy and business confidentiality.
 
 </div>
 
+<div class="project-card">
+
+```
+<div class="project-header">
+
+    <div class="project-category">
+        Personal Project
+    </div>
+
+    <h2 class="project-title serif">
+Staff Management Portal
+</h2>
+
+   <p class="project-desc">
+A Django-powered workforce management application designed to streamline
+staff administration through centralized employee records, department
+management, profile handling, and administrative workflows. The system
+provides an intuitive dashboard for organizing personnel information
+efficiently.
+</p>
+
+</div>
+
+<div class="video-wrapper">
+
+    <div class="video-box">
+
+        <video controls autoplay muted loop playsinline>
+
+            <source
+            src="Videos/staff portal.mp4"
+            type="video/mp4">
+
+        </video>
+
+    </div>
+
+</div>
+
+<div class="grid">
+
+    <div class="card">
+        <i class="fa-solid fa-users"></i>
+        <h3>Employee Records</h3>
+        <p>
+            Store, update, and manage employee information through a
+            structured administrative interface.
+        </p>
+    </div>
+
+    <div class="card">
+        <i class="fa-solid fa-building"></i>
+        <h3>Department Management</h3>
+        <p>
+            Organize departments and maintain relationships between
+            employees and their respective departments.
+        </p>
+    </div>
+
+    <div class="card">
+        <i class="fa-solid fa-table"></i>
+        <h3>Data Organization</h3>
+        <p>
+            Present employee and department information in a clean,
+            searchable, and manageable format.
+        </p>
+    </div>
+
+</div>
+<div class="features">
+
+<h2 class="section-title serif">
+Key Features
+</h2>
+
+<div class="feature-grid">
+
+<div class="feature">✓ Secure User Authentication</div>
+<div class="feature">✓ Staff Registration System</div>
+<div class="feature">✓ Department Management</div>
+<div class="feature">✓ Employee-Department Assignment</div>
+<div class="feature">✓ Staff Profile Photo Upload</div>
+<div class="feature">✓ Employee Directory</div>
+<div class="feature">✓ Edit & Delete Operations</div>
+<div class="feature">✓ Administrative Dashboard</div>
+
+</div>
+
+</div>
+
+<div class="stack">
+
+    <h2 class="section-title serif">
+        Technology Stack
+    </h2>
+
+    <div class="tech-list">
+
+        <div class="tech">Python</div>
+        <div class="tech">Django</div>
+        <div class="tech">HTML5</div>
+        <div class="tech">CSS3</div>
+        <div class="tech">Bootstrap</div>
+        <div class="tech">SQLite</div>
+        <div class="tech">GitHub</div>
+
+    </div>
+
+</div>
+
+<div class="grid">
+
+    <div class="card">
+        <i class="fa-solid fa-circle-exclamation"></i>
+        <h3>Challenge</h3>
+
+        <p>
+            Managing employee and department information manually can
+            become inefficient as organizational data grows.
+        </p>
+
+    </div>
+
+    <div class="card">
+        <i class="fa-solid fa-lightbulb"></i>
+        <h3>Solution</h3>
+
+        <p>
+            Developed a centralized system for maintaining employee
+            records and department details in a structured manner.
+        </p>
+
+    </div>
+
+    <div class="card">
+        <i class="fa-solid fa-chart-line"></i>
+        <h3>Result</h3>
+
+        <p>
+            Improved organization of workforce data while simplifying
+            employee and department management workflows.
+        </p>
+
+    </div>
+
+</div>
+
+
+</div>
+
+
 </div>
 
 </div>
 
 </section>
+
+<!-- SECOND PROJECT -->
+
+
+
+
 
 <!-- FUTURE PROJECTS -->
 
